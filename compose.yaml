@@ -1,0 +1,6 @@
+services:
+  lovelace_bot:
+    build: .
+    image: lovelace_bot:0.1.0
+    container_name: lovelace_bot
+    env_file: .env
